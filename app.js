@@ -102,6 +102,6 @@ const clickElement = (event) => {
 // event listeners
 buttonAgain.addEventListener('click', clickAgain)
 
-for (const divElement of gridElements) {
+for (let divElement of gridElements) {
 	divElement.addEventListener('click', clickElement)
 }
